@@ -22,6 +22,6 @@ public class StegoMapper {
     }
 
     public StegoDTO.ImageResponse toImageResponse(StegoImage entity) {
-        return toImageResponse(entity, "http://localhost:8080");
+        return toImageResponse(entity, "https://image-steganography-o6mn.onrender.com");
     }
 }
