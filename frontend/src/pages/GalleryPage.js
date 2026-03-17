@@ -36,11 +36,11 @@ function GalleryPage() {
   useEffect(() => {
     setPage(0);
     fetchImages(0);
-  }, [search, statusFilter]);
+  }, [search, statusFilter, fetchImages]);
 
   useEffect(() => {
     fetchImages(page);
-  }, [page]);
+  }, [page, fetchImages]);
 
   const handleDecode = async (id) => {
     setDecoding(id);
