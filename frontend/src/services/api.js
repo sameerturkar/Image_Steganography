@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8080/api';
+const BASE_URL = 'https://image-steganography-o6mn.onrender.com';
 
 const api = axios.create({
   baseURL: BASE_URL,
