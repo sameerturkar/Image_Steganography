@@ -21,7 +21,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://image-steganography-rose.vercel.app/")
 public class SteganographyController {
 
     private final SteganographyService service;
