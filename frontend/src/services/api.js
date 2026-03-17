@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://image-steganography-o6mn.onrender.com';
+const BASE_URL = 'https://image-steganography-o6mn.onrender.com/api';
 
 const api = axios.create({
   baseURL: BASE_URL,
@@ -28,8 +28,12 @@ export const stegoAPI = {
     formData.append('file', file);
     formData.append('message', message);
     if (description) formData.append('description', description);
-    return api.post('${BASE_URL}/images/encode', formData);
+    return api.post('/images/encode', formData);
+
+
   },
+
+  
 
   // Decode by ID
   decodeById: (id) => api.post(`/images/${id}/decode`),
