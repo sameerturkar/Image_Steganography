@@ -75,6 +75,7 @@ export const stegoAPI = {
   getCapacity: (file) => {
     const formData = new FormData();
     formData.append('file', file);
+    formData.append("message", message);
     return api.post('/images/capacity', formData);
   },
 
