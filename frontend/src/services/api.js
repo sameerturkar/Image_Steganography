@@ -28,7 +28,7 @@ export const stegoAPI = {
     formData.append('file', file);
     formData.append('message', message);
     if (description) formData.append('description', description);
-    return api.post('/images/encode', formData);
+    return api.post('${BASE_URL}/images/encode', formData);
   },
 
   // Decode by ID
