@@ -43,11 +43,6 @@ The decoding feature allows users to upload a stego-image and retrieve the hidde
 
 ![Decode](./assets/decode.png)
 
-**Tip:** Use clear screenshots showing:
-- Upload image section
-- Message input field
-- Result/output preview
-
 ---
 
 ## Tech Stack
@@ -65,6 +60,9 @@ The decoding feature allows users to upload a stego-image and retrieve the hidde
 **Other**
 - Axios (API calls)
 - Image processing logic (LSB technique)
+- Render (for Backend Deploayment)
+- Railway DB (for SQL cloud Database)
+- Vercel (for Frontend Deployment)
 
 ---
 
@@ -89,7 +87,6 @@ The decoding feature allows users to upload a stego-image and retrieve the hidde
 
 - Learning steganography concepts
 - Data hiding demonstrations
-- Academic mini-projects
 - Experimenting with image processing
 
 ---
