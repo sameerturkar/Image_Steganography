@@ -33,11 +33,9 @@ The decoding feature allows users to upload a stego-image and retrieve the hidde
 
 > Add your screenshots inside an `assets/` folder in your repo
 
-```md
-![Home](./assets/home.png)
+![Home](./assets/home.png) 
 ![Encode](./assets/encode.png)
 ![Decode](./assets/decode.png)
-```
 
 **Tip:** Use clear screenshots showing:
 - Upload image section
