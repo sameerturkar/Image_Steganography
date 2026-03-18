@@ -34,9 +34,13 @@ The decoding feature allows users to upload a stego-image and retrieve the hidde
 > Home Page :
 
 ![Home](./assets/home.png) 
+
 > Encode Page :
+
 ![Encode](./assets/encode.png)
+
 > Decode Page :
+
 ![Decode](./assets/decode.png)
 
 **Tip:** Use clear screenshots showing:
